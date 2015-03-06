@@ -1,0 +1,23 @@
+{
+    "name": "n3xtchen/wechat",
+    "description": "Wexin Api For PHP",
+    "keywords" : ["weixin", "api", "php"],
+    "license": "GPL-2.0",
+    "authors": [{
+      "name": "N3xtchen",
+      "email": "echenwen@gmail.com"
+    }],
+    "require": {
+      "PHP" : ">=5.4",
+      "symfony/console": "~2.5"
+    },
+    "require-dev": {
+      "symfony/yaml": "*"
+    },
+    "autoload" : {
+      "psr-4" : {
+        "WeChat\\" : ""
+      }
+    },
+    "minimum-stability": "dev"
+}
